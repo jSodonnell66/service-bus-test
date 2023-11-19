@@ -23,10 +23,10 @@ var clientOptions = new ServiceBusClientOptions
 };
 //TODO: Replace the "<NAMESPACE-NAME>" and "<QUEUE-NAME>" placeholders.
 client = new ServiceBusClient(
-    "<NAMESPACE-NAME>.servicebus.windows.net",
+    "az204svcbus27985.servicebus.windows.net",
     new DefaultAzureCredential(),
     clientOptions);
-sender = client.CreateSender("<QUEUE-NAME>");
+sender = client.CreateSender("https://az204svcbus27985.servicebus.windows.net/az204-queue");
 
 // create a batch 
 using ServiceBusMessageBatch messageBatch = await sender.CreateMessageBatchAsync();
