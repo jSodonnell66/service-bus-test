@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueSender", "QueueSender\QueueSender.csproj", "{211BE9C2-304A-4D74-AD59-3F73714F7F18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueReceiver", "QueueReceiver\QueueReceiver.csproj", "{483F6699-F72F-46EF-9AD6-52A6E956A865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{211BE9C2-304A-4D74-AD59-3F73714F7F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{211BE9C2-304A-4D74-AD59-3F73714F7F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{211BE9C2-304A-4D74-AD59-3F73714F7F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{483F6699-F72F-46EF-9AD6-52A6E956A865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483F6699-F72F-46EF-9AD6-52A6E956A865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483F6699-F72F-46EF-9AD6-52A6E956A865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483F6699-F72F-46EF-9AD6-52A6E956A865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
